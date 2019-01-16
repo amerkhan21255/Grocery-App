@@ -20,8 +20,9 @@ var table = document.getElementsByTagName("table") [0];
    var cel3 = newRow.insertCell(2);
    var cel4 = newRow.insertCell(3);
    cel1.innerHTML = itemS;
-   cel2.innerHTML = unitS;
-   cel3.innerHTML = cosT;
+   cel2.innerHTML = Number(unitS);
+   cel3.innerHTML = Number(cosT);
+   cel4.innerHTML = unitS*cosT;
  }
 
 
