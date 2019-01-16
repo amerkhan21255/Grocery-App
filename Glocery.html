@@ -8,14 +8,20 @@
   <title>Document</title>
 
   <script>
- function addItem()
+ function addRow()
  {
    var itemS = document.getElementById("itemS").value;
-   var unitS = document.getElementById("unitSS").value;
+   var unitS = document.getElementById("unitS").value;
    var cosT = document.getElementById("cosT").value;
 var table = document.getElementsByTagName("table") [0];
-   var newCart = table.insertRow(0);
-   var cell = newCart.insertCell();
+   var newRow = table.insertRow(0);
+   var cel1 = newRow.insertCell(0);
+   var cel2 = newRow.insertCell(1);
+   var cel3 = newRow.insertCell(2);
+   var cel4 = newRow.insertCell(3);
+   cel1.innerHTML = itemS;
+   cel2.innerHTML = unitS;
+   cel3.innerHTML = cosT;
  }
 
 
@@ -32,7 +38,7 @@ var table = document.getElementsByTagName("table") [0];
   <input class="inpts" style="margin-left: 18em;" type="text" name="units" id="unitS">
   <input class="inpts" type="text" name="cost" id="cosT"> 
 <br><br>
-  <button class="btn" onclick="addCart();">Add to Cart</button><br><br>
+  <button class="btn" onclick="addRow();">Add to Cart</button><br><br>
 
   <table border="1" class="tablebox">
     <tr>
