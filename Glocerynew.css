@@ -1,7 +1,5 @@
-
-
 body, html {
-    background: url(http://sherwoodparkweather.com/wp-content/uploads/2017/09/top-5-best-online-shopping-websites-in-nepal-2017.jpg) no-repeat top left fixed #f0e9d6;
+    background: url(http://res.cloudinary.com/arbor1221/image/upload/v1502444058/Surprise_Gift_wu05xk.jpg) no-repeat top left fixed #f0e9d6;
     color: #FFFFFF;
     margin: 0;
     padding: 0;
@@ -9,19 +7,17 @@ body, html {
    max-height: 100%;
     }
     
-     
-
 .Labelss{
     padding-right:7em;
     font-size:18pt;
     font-weight: bold;
     text-shadow: 0 0 3px #FF0000;
 }
-#cosT{
+#cost{
     position: absolute;
     right: 23em;
 }
-#unitS{
+#units{
     margin-left: 90px;
 }
 .inpts{
@@ -61,4 +57,5 @@ body, html {
 .tablebox{
     margin-left:8em;
   font-size:23pt;
+  color:black;
 }
